@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  /* non-shorthand for grid columns/rows */
+  /* grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px; */
+
+  /* grid shorthand for columns and rows */
+  grid-template: 50px 50px / 50px 50px;
+
+  /* how to set implicit grid track sizes for new grid items */
+  grid-auto-rows: 50px;
+
+  /* to have grid items added horizontally and define track sizes */
+  /* grid-auto-flow: column; 
+  grid-auto-columns: 50px*/
+
+  /* gap */
+  /* column-gap and row-gap or shorthand: gap for both */
+  /* column-gap: 10px;
+  row-gap: 100px */
+  gap: 100px 10px;
+}
+
+.container > div {
+  border: 1px solid blue;
+}

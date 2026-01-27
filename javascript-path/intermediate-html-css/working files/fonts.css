@@ -1,0 +1,59 @@
+/* General setup */
+@font-face {
+  font-family: "Exoregular";
+  src: url(./fonts/Exo-Regular.woff2) format("woff2");
+  src: url(./fonts/Exo-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SinkinSansregular";
+  src: url(./fonts/SinkinSans-400Regular.woff2) format("woff2");
+  src: url(./fonts/SinkinSans-400Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.roboto-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  font-family: "Exoregular", sans-serif;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "Exoregular", sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  font-family: "roboto", sans-serif;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="first-form.css" rel="stylesheet" type="text/css">
+    <title>My test page</title>
+
+</head>
+<body>
+    <p>This is my page</p>
+    <form action="/my-handling-form-page" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type type="text" id="name" name="user_name" />
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+            <label for="msg">Message:</label>
+            <textarea name="user_message" id="msg">by default, it'll say this</textarea>
+        </p>
+        <p>
+            <button type="submit">Send your message</button>
+        </p>
+    </form>
+</body>
+</html>

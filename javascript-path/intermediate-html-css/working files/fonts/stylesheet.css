@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('Exo-Regular.woff2') format('woff2'),
+        url('Exo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sinkin Sans 400';
+    src: url('SinkinSans-400Regular.woff2') format('woff2'),
+        url('SinkinSans-400Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
