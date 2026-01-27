@@ -1,0 +1,1 @@
+These exercises cover the use of CSS grid and are based on TOP curriculum.
